@@ -6,7 +6,7 @@
 /*   By: kborges- <kborges-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/03 10:23:17 by kborges-          #+#    #+#             */
-/*   Updated: 2021/10/12 00:13:01 by kborges-         ###   ########.fr       */
+/*   Updated: 2021/10/12 00:23:29 by kborges-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,6 @@ char	*ft_strjoin(char const *s1, char const *s2)
 		strj[i + j] = s2[j];
 		j++;
 	}
-	strj[i] = '\0';
+	strj[i + j] = '\0';
 	return (strj);
 }
