@@ -6,7 +6,7 @@
 /*   By: kborges- <kborges-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/09 03:28:49 by kborges-          #+#    #+#             */
-/*   Updated: 2021/10/09 03:50:05 by kborges-         ###   ########.fr       */
+/*   Updated: 2021/10/11 22:42:58 by kborges-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,8 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 
 	i = 0;
 	if (!s || !f)
-		return;
-	while(s[i] != '\0')
+		return ;
+	while (s[i] != '\0')
 	{
 		f(i, &s[i]);
 		i++;

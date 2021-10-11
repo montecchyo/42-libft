@@ -6,7 +6,7 @@
 /*   By: kborges- <kborges-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/09 04:21:48 by kborges-          #+#    #+#             */
-/*   Updated: 2021/10/09 11:40:14 by kborges-         ###   ########.fr       */
+/*   Updated: 2021/10/11 22:42:42 by kborges-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_putstr_fd(char *s, int fd)
 	int	i;
 
 	if (!s)
-		return;
+		return ;
 	i = 0;
 	while (s[i] != '\0')
 	{
