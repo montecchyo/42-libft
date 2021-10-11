@@ -6,7 +6,7 @@
 /*   By: kborges- <kborges-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/03 10:23:17 by kborges-          #+#    #+#             */
-/*   Updated: 2021/10/12 00:31:33 by kborges-         ###   ########.fr       */
+/*   Updated: 2021/10/12 00:36:48 by kborges-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 
 	total_len = ft_strlen(s1) + ft_strlen(s2);
 	strj = (char *)malloc(sizeof(char) * (total_len + 1));
-	if (!strj)
+	if (strj == NULL)
 		return (NULL);
 	i = 0;
 	j = 0;
