@@ -6,7 +6,7 @@
 /*   By: kborges- <kborges-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/03 10:23:17 by kborges-          #+#    #+#             */
-/*   Updated: 2021/10/03 11:09:26 by kborges-         ###   ########.fr       */
+/*   Updated: 2021/10/12 00:13:01 by kborges-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,10 +30,9 @@ char	*ft_strjoin(char const *s1, char const *s2)
 		strj[i] = s1[i];
 		i++;
 	}
-	while (i < total_len)
+	while (j < total_len)
 	{
-		strj[i] = s2[j];
-		i++;
+		strj[i + j] = s2[j];
 		j++;
 	}
 	strj[i] = '\0';
