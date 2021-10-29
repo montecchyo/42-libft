@@ -6,7 +6,7 @@
 /*   By: kborges- <kborges-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/11 08:49:08 by kborges-          #+#    #+#             */
-/*   Updated: 2021/10/22 20:50:12 by kborges-         ###   ########.fr       */
+/*   Updated: 2021/10/29 23:35:07 by kborges-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,5 +33,5 @@ void	*ft_memmove(void *s1, const void *s2, size_t n)
 			cdest[i] = csrc[i];
 		}
 	}
-	return (dest);
+	return (cdest);
 }
